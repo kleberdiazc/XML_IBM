@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. 4997 master 6x2 kg, Palé (SSCC)
+        Datos de variables: ID de referencia: 802876488*
+
+UUID: urn:uuid:b043cede-848d-4d09-877a-ba47abd333cc
+Hora del suceso: 2019-09-16T17:32:34.935Z
+Huso horario: -05:00
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-16T17:32:34.935Z" 
+    xmlns:ns2="urn:epcglobal:cbv:mda" 
+    xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+    <EPCISBody>
+        <EventList>
+            <ObjectEvent>
+                <eventTime>2019-03-09T17:32:34.935Z</eventTime>
+                <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>urn:uuid:b043cede-848d-4d09-877a-ba47abd333cc</eventID>
+                </baseExtension>
+                <epcList>
+                    <epc>urn:ibm:ift:lpn:obj:78612067.87223-pallet</epc>
+                </epcList>
+                <action>OBSERVE</action>
+                <bizLocation>
+                    <id>urn:ibm:ift:location:loc:78612067.IRud</id>
+                </bizLocation>
+                <extension>
+                    <sourceList>
+                        <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</source>
+                    </sourceList>
+                    <destinationList>
+                        <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</destination>
+                    </destinationList>
+                </extension>
+            </ObjectEvent>
+        </EventList>
+    </EPCISBody>
+</ns3:EPCISDocument>

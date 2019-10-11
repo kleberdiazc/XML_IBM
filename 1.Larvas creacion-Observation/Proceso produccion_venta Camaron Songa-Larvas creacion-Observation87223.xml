@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. Larvas, Lote (EA: Unit)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 241*
+
+UUID: urn:uuid:d7a1e476-e7b9-4b75-b3ec-a0601103aa4b
+Hora del suceso: 2019-09-11T18:03:57.195Z
+Huso horario: -05:00
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-11T18:03:57.195Z" 
+        xmlns:ns2="urn:epcglobal:cbv:mda" 
+        xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+        <EPCISBody>
+                <EventList>
+                        <ObjectEvent>
+                                <eventTime>2018-09-07T18:03:57.195Z</eventTime>
+                                <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                                <baseExtension>
+                                        <eventID>urn:uuid:d7a1e476-e7b9-4b75-b3ec-a0601103aa4b</eventID>
+                                </baseExtension>
+                                <epcList/>
+                                <action>OBSERVE</action>
+                                <bizLocation>
+                                        <id>urn:ibm:ift:location:loc:78612067.sphn</id>
+                                </bizLocation>
+                                <extension>
+                                        <quantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78612067.hSFV.28112018-001</epcClass>
+                                                        <quantity>950000</quantity>
+                                                        <uom>EA</uom>
+                                                </quantityElement>
+                                        </quantityList>
+                                        <sourceList>
+                                                <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.sphn</source>
+                                        </sourceList>
+                                        <destinationList>
+                                                <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.sphn</destination>
+                                        </destinationList>
+                                </extension>
+                        </ObjectEvent>
+                </EventList>
+        </EPCISBody>
+</ns3:EPCISDocument>

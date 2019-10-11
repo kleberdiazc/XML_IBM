@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. 4997 master 6x2 kg, Palé (SSCC)
+        Datos de variables: ID de referencia: 802876488*
+
+2. 4997 master 6x2 kg, Palé (SSCC)
+        Datos de variables: ID de referencia: 226458390*
+
+UUID: urn:uuid:a401580f-2f42-467e-a7ca-ce1b0b665fb6
+Hora del suceso: 2019-09-16T17:32:35.068Z
+Huso horario: -05:00
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-16T17:32:35.068Z" 
+    xmlns:ns2="urn:epcglobal:cbv:mda" 
+    xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+    <EPCISBody>
+        <EventList>
+            <AggregationEvent>
+                <eventTime>2019-03-09T11:30:35.068Z</eventTime>
+                <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>urn:uuid:a401580f-2f42-467e-a7ca-ce1b0b665fb6</eventID>
+                </baseExtension>
+                <parentID>urn:ibm:ift:lpn:obj:78612067.87223-378611592304688683</parentID>
+                <childEPCs>
+                    <epc>urn:ibm:ift:lpn:obj:78612067.87223-378611592304688683</epc>
+                </childEPCs>
+                <action>ADD</action>
+                <bizLocation>
+                    <id>urn:ibm:ift:location:loc:78612067.IRud</id>
+                </bizLocation>
+                <extension>
+                    <sourceList>
+                        <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</source>
+                    </sourceList>
+                    <destinationList>
+                        <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</destination>
+                    </destinationList>
+                </extension>
+            </AggregationEvent>
+        </EventList>
+    </EPCISBody>
+</ns3:EPCISDocument>

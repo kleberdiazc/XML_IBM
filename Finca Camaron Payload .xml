@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ift:payload xmlns:ift="urn:ibm:ift:xsd:1">
+  <payloadMessage>
+    <!-- Deben cambiar el ID del payload-->
+    <payloadID>8be04f51-11c7-4bcb-aff8-0e6abbb08a82</payloadID>
+    <payloadTime>2019-03-23T06:10:00.000Z</payloadTime>
+    <payloadContentType>application/json</payloadContentType>
+    <payloadTypeURI>urn:ibm:ift:payload:type:json:triple</payloadTypeURI>
+    <epcList>
+      <epc>urn:ibm:ift:product:lot:class:78612067.hSFV.28112018-05</epc>
+    </epcList>
+    <payload>[{"key": "title", "value": "Payload Camaron de Finca", "type": "string"}, {"key": "Piscina", "value": "6", "type": "string"}, {"key": "Comida", "value": "Henz", "type": "string"} ]</payload>
+  </payloadMessage>
+</ift:payload>

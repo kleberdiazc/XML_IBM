@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ift:payload xmlns:ift="urn:ibm:ift:xsd:1">
+  <payloadMessage>
+    <!-- Deben cambiar el ID del payload-->
+    <payloadID>b2474a70-2511-417e-9321-8ed361675207</payloadID>
+    <payloadTime>2019-08-09T07:00:00.000Z</payloadTime>
+    <payloadContentType>application/json</payloadContentType>
+    <payloadTypeURI>urn:ibm:ift:payload:type:json:triple</payloadTypeURI>
+    <epcList>
+      <epc>urn:ibm:ift:lpn:obj:78612067.87223-378611592304688683</epc>
+    </epcList>
+    <payload>[{"key": "title", "value": "Payload Camaron en Planta", "type": "string"}, {"key": "Pais Destino", "value": "Espana", "type": "string"}, {"key": "Temp Promedio", "value": "10C", "type": "string"} ]</payload>
+  </payloadMessage>
+</ift:payload>

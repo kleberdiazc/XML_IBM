@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. Larvas, Lote (EA: Unit)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 241*
+
+2. Camaron por Clasificar, Lote (LBR: Pound)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 146*
+
+UUID: urn:uuid:c71d42ee-dcc4-4bd0-b09b-ef87a2a41f3d
+Hora del suceso: 2019-09-11T18:03:58.634Z
+Huso horario: -05:00
+Fecha de caducidad de artículo: 2019-09-14
+Fecha de venta recomendada: 2019-09-14
+Fecha de consumo preferente: 2019-09-14
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-11T18:03:58.633Z" 
+        xmlns:ns2="urn:epcglobal:cbv:mda" 
+        xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+        <EPCISBody>
+                <EventList>
+                        <extension>
+                                <TransformationEvent>
+                                        <eventTime>2019-03-08T18:03:58.634Z</eventTime>
+                                        <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                                        <baseExtension>
+                                                <eventID>urn:uuid:c71d42ee-dcc4-4bd0-b09b-ef87a2a41f3d</eventID>
+                                        </baseExtension>
+                                        <inputQuantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78612067.hSFV.28112018-05</epcClass>
+                                                        <quantity>800000</quantity>
+                                                        <uom>EA</uom>
+                                                </quantityElement>
+                                        </inputQuantityList>
+                                        <outputQuantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78612067.QnyE.08032019-05</epcClass>
+                                                        <quantity>54464</quantity>
+                                                        <uom>LBR</uom>
+                                                </quantityElement>
+                                        </outputQuantityList>
+                                        <bizLocation>
+                                                <id>urn:ibm:ift:location:loc:78612067.laag</id>
+                                        </bizLocation>
+                                        <extension>
+                                                <sourceList>
+                                                        <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.laag</source>
+                                                </sourceList>
+                                                <destinationList>
+                                                        <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.laag</destination>
+                                                </destinationList>
+                                                <ilmd>
+                                                        <ns2:bestBeforeDate>2019-09-14T00:00:00Z</ns2:bestBeforeDate>
+                                                        <ns2:itemExpirationDate>2019-09-14T00:00:00Z</ns2:itemExpirationDate>
+                                                        <ns2:sellByDate>2019-09-14T00:00:00Z</ns2:sellByDate>
+                                                </ilmd>
+                                        </extension>
+                                </TransformationEvent>
+                        </extension>
+                </EventList>
+        </EPCISBody>
+</ns3:EPCISDocument>

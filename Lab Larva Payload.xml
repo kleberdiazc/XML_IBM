@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ift:payload xmlns:ift="urn:ibm:ift:xsd:1">
+  <payloadMessage>
+    <!-- Deben cambiar el ID del payload-->
+    <payloadID>0c8dc90b-6742-4875-b8e1-2efd992b6b5a</payloadID>
+    <payloadTime>2018-09-08T15:30:00.000Z</payloadTime>
+    <payloadContentType>application/json</payloadContentType>
+    <payloadTypeURI>urn:ibm:ift:payload:type:json:triple</payloadTypeURI>
+    <epcList>
+      <epc>urn:ibm:ift:product:lot:class:78612067.hSFV.28112018-001</epc>
+    </epcList>
+    <payload>[{"key": "title", "value": "Payload Larva en Lab", "type": "string"}, {"key": "Tanque", "value": "20", "type": "string"}, {"key": "Comida", "value": "Alimento Balanceado", "type": "string"} ]</payload>
+  </payloadMessage>
+</ift:payload>

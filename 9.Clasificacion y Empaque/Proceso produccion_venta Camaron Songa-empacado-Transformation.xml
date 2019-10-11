@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. Entero por clasificar, Lote (LBR: Pound)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 869*
+
+2. 4997 HEAD-ON SHELL-ON RAW SEMI-IQF ASC 6*2kg 30_40, Lote (KGM: Kilogram)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 123*
+
+UUID: urn:uuid:b082f5f9-3c66-4d7b-9b10-553121ff7de7
+Hora del suceso: 2019-09-11T18:03:59.727Z
+Huso horario: -05:00
+Fecha de caducidad de artículo: 2019-09-14
+Fecha de venta recomendada: 2019-09-14
+Fecha de consumo preferente: 2019-09-14
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-11T18:03:59.727Z" 
+        xmlns:ns2="urn:epcglobal:cbv:mda" 
+        xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+        <EPCISBody>
+                <EventList>
+                        <extension>
+                                <TransformationEvent>
+                                        <eventTime>2019-03-23T19:22:59.727Z</eventTime>
+                                        <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                                        <baseExtension>
+                                                <eventID>urn:uuid:b082f5f9-3c66-4d7b-9b10-553121ff7de7</eventID>
+                                        </baseExtension>
+                                        <inputQuantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78612067.GxEP.87628</epcClass>
+                                                        <quantity>40591.74</quantity>
+                                                        <uom>LBR</uom>
+                                                </quantityElement>
+                                        </inputQuantityList>
+                                        <outputQuantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78611592.tbou.87628</epcClass>
+                                                        <quantity>4670</quantity>
+                                                        <uom>KGM</uom>
+                                                </quantityElement>
+                                        </outputQuantityList>
+                                        <bizLocation>
+                                                <id>urn:ibm:ift:location:loc:78612067.IRud</id>
+                                        </bizLocation>
+                                        <extension>
+                                                <sourceList>
+                                                        <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</source>
+                                                </sourceList>
+                                                <destinationList>
+                                                        <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</destination>
+                                                </destinationList>
+                                                <ilmd>
+                                                        <ns2:bestBeforeDate>2021-03-23T00:00:00Z</ns2:bestBeforeDate>
+                                                        <ns2:itemExpirationDate>2021-03-23T00:00:00Z</ns2:itemExpirationDate>
+                                                        <ns2:sellByDate>2019-09-14T00:00:00Z</ns2:sellByDate>
+                                                </ilmd>
+                                        </extension>
+                                </TransformationEvent>
+                        </extension>
+                </EventList>
+        </EPCISBody>
+</ns3:EPCISDocument>

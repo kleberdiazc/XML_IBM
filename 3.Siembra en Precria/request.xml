@@ -1,0 +1,8 @@
+{
+  "message": {
+    "ids": [
+      "urn:ibm:provenance:asset:event:transformation:803480ff-88b2-4f4a-9ef7-6b98c4373298:default:default:2e9b48b2664091c3bbf57b0df4fb6a8b4289820c4ae4780a83a31fbb7c0f461f",
+      "urn:ibm:provenance:asset:object:lotILMD:803480ff-88b2-4f4a-9ef7-6b98c4373298:default:default:5053100976b82dc7e1c3418164948a41efc9b87b31aae87bb6299ae6984ca556"
+    ]
+  }
+}

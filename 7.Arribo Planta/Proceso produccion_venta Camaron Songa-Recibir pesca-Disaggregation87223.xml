@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+Datos de variable utilizados en este archivo XML:
+1. Camaron por Clasificar, Palé (SSCC)
+        Datos de variables: ID de referencia: 23032019-05-pallet*
+
+2. Camaron por Clasificar, Lote (LBR: Pound)
+        Datos de variables: cantidad: 33333*
+        Datos de variables: ID de referencia: 146*
+
+UUID: urn:uuid:01864d49-3921-4fe6-92cd-3e2458dc440c
+Hora del suceso: 2019-09-11T18:03:59.086Z
+Huso horario: -05:00
+* Número generado por IBM Food Trust
+-->
+<ns3:EPCISDocument schemaVersion="1.2" creationDate="2019-09-11T18:03:59.086Z" 
+        xmlns:ns2="urn:epcglobal:cbv:mda" 
+        xmlns:ns3="urn:epcglobal:epcis:xsd:1">
+        <EPCISBody>
+                <EventList>
+                        <AggregationEvent>
+                                <eventTime>2019-03-08T18:03:59.086Z</eventTime>
+                                <eventTimeZoneOffset>-05:00</eventTimeZoneOffset>
+                                <baseExtension>
+                                        <eventID>urn:uuid:01864d49-3921-4fe6-92cd-3e2458dc440c</eventID>
+                                </baseExtension>
+                                <parentID>urn:ibm:ift:lpn:obj:78612067.08032019-05-pallet</parentID>
+                                <childEPCs/>
+                                <action>DELETE</action>
+                                <bizLocation>
+                                        <id>urn:ibm:ift:location:loc:78612067.IRud</id>
+                                </bizLocation>
+                                <extension>
+                                        <childQuantityList>
+                                                <quantityElement>
+                                                        <epcClass>urn:ibm:ift:product:lot:class:78612067.QnyE.08032019-05</epcClass>
+                                                        <quantity>54464</quantity>
+                                                        <uom>LBR</uom>
+                                                </quantityElement>
+                                        </childQuantityList>
+                                        <sourceList>
+                                                <source type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.laag</source>
+                                        </sourceList>
+                                        <destinationList>
+                                                <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:ibm:ift:location:loc:78612067.IRud</destination>
+                                        </destinationList>
+                                </extension>
+                        </AggregationEvent>
+                </EventList>
+        </EPCISBody>
+</ns3:EPCISDocument>
